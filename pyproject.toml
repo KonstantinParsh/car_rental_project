@@ -1,0 +1,14 @@
+[project]
+name = "car_rental_project"
+version = "0.1.0"
+description = "БД проката автомобилей на SQLite: две связанные таблицы и скрипты для проверки"
+authors = [{name = "author", email = "example@email.com"}]
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
